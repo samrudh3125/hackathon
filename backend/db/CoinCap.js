@@ -1,7 +1,7 @@
 
 const mongoose=require("mongoose");
 
-mongoose.connect("mongodb+srv://hacker_ben:Kumaon3some@hackathon.vchd8bz.mongodb.net/");
+mongoose.connect("");
 
 const coinSchema=new mongoose.Schema({
     Symbol:String,
